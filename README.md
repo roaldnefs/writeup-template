@@ -18,3 +18,11 @@ Install the required **pandoc LaTeX template** called [Eisvogel](https://github.
 2. Extract the downloaded ZIP archive and open the folder.
 
 3. Move the template `eisvogel.tex` to your pandoc templates folder and rename the file to `eisvogel.latex`. The location of the templates folder depends on your pandoc installation: `/Users/USERNAME/.local/share/pandoc/templates/` or `/Users/USERNAME/.pandoc/templates/`.
+
+## Usage
+
+To generate the PDF run the following command or use the supplied `Makefile`:
+
+```console
+$ pandoc --from markdown --template eisvogel --listings -o writeup.pdf writeup.md
+```

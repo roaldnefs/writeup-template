@@ -33,5 +33,5 @@ Install the required **pandoc LaTeX template** called [Eisvogel](https://github.
 To generate the PDF run the following command or use the supplied `Makefile`:
 
 ```console
-$ pandoc --from markdown --template eisvogel --listings -o writeup.pdf writeup.md
+$ pandoc --from markdown --pdf-engine=xelatex --template eisvogel --listings -o writeup.pdf writeup.md
 ```

@@ -14,6 +14,13 @@ $ sudo apt install texlive texlive-xetex texlive-fonts-recommended \
     texlive-fonts-extra pandoc
 ```
 
+### Fedora
+
+```console
+$ sudo dnf install texlive-latex texlive-xetex texlive-collection-fontsrecommended \
+    texlive-collection-fontsextra pandoc
+```
+
 ### Mac OS
 
 ```console

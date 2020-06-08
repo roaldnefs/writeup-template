@@ -17,8 +17,9 @@ $ sudo apt install texlive texlive-xetex texlive-fonts-recommended \
 ### Fedora
 
 ```console
-$ sudo dnf install texlive-latex texlive-xetex texlive-collection-fontsrecommended \
-    texlive-collection-fontsextra pandoc
+$ sudo dnf install texlive texlive-latex texlive-xetex texlive-collection-fontsrecommended \
+    texlive-collection-fontsextra pandoc texlive-footnotebackref texlive-pagecolor texlive-mdframed \
+    texlive-titling
 ```
 
 ### Mac OS
